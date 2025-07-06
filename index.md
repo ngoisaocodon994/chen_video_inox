@@ -11,6 +11,7 @@ lang: vi
 
 ---
 
+
 ## 🎯 Mục tiêu hệ thống
 
 Hệ thống giúp **tự động chèn video YouTube** vào bài viết và sản phẩm trên [inoxmanhhung.vn](https://inoxmanhhung.vn) nhằm:

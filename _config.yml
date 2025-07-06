@@ -1,30 +1,5 @@
 title: "📼 Tài liệu hệ thống chèn video – INOX MẠNH HƯNG"
 description: "Tự động chèn video vào bài viết WordPress – hỗ trợ AI + Plugin + Schema SEO"
-theme: jekyll-theme-modernist  # Gọn đẹp, responsive, nhẹ
-show_downloads: true           # Hiện nút download nếu có tệp liên quan
-google_analytics: false        # Có thể đổi thành ID GA nếu muốn tracking
-
-# Cấu hình SEO & hiển thị tốt hơn
-author: "Đội ngũ INOX MẠNH HƯNG"
-lang: vi
-email: sales@inoxmanhhung.com
-url: "https://ngoisaocodon994.github.io/chen_video_inox/"
-baseurl: ""  # Nếu dùng trong subdirectory, ví dụ: "/project-name"
-logo: "/assets/img/logo.png"  # (Tùy chọn) Logo nếu có
-favicon: "/assets/img/favicon.ico"  # (Tùy chọn)
-
-# Tuỳ chọn Navigation
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-sitemap
-
-markdown: kramdown
-
-# Social (dùng cho SEO tag + OpenGraph)
-social:
-  name: INOX MẠNH HƯNG
-  links:
-    - https://inoxmanhhung.vn
-    - mailto:sales@inoxmanhhung.com
-    - tel:+84903162066
+theme: jekyll-theme-modernist  # Gọn đẹp, responsive
+show_downloads: true
+google_analytics: false

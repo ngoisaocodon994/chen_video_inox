@@ -3,6 +3,8 @@ layout: default
 title: 📼 Hệ thống chèn video tự động – Inox Mạnh Hưng
 description: Tự động chèn video YouTube vào bài viết và sản phẩm trên website inoxmanhhung.vn nhằm tăng thời gian ở lại trang, giảm bounce rate và tối ưu SEO.
 ---
+<!-- Chèn CSS tùy chỉnh -->
+<link rel="stylesheet" href="/assets/css/custom.css">
 
 # 📼 HỆ THỐNG CHÈN VIDEO TỰ ĐỘNG – INOX MẠNH HƯNG
 

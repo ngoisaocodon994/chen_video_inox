@@ -1,3 +1,8 @@
+---
+layout: default
+title: 📼 Hệ thống chèn video tự động
+---
+
 # 📼 HỆ THỐNG CHÈN VIDEO TỰ ĐỘNG – INOX MẠNH HƯNG
 
 ## 🎯 Mục tiêu hệ thống

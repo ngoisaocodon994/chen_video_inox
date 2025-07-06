@@ -5,9 +5,6 @@ description: Tự động chèn video YouTube vào bài viết và sản phẩm 
 lang: vi
 ---
 
-<!-- 🎨 Chèn CSS tuỳ chỉnh -->
-<link rel="stylesheet" href="/assets/css/custom.css">
-
 # 📼 HỆ THỐNG CHÈN VIDEO TỰ ĐỘNG – INOX MẠNH HƯNG
 
 > ✅ Tối ưu SEO | ✅ Tăng Time on Page | ✅ Giảm Bounce Rate | ✅ Hoàn toàn tự động

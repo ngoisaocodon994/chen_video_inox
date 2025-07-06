@@ -1,5 +1,5 @@
 title: "📼 Tài liệu hệ thống chèn video – INOX MẠNH HƯNG"
 description: "Tự động chèn video vào bài viết WordPress – hỗ trợ AI + Plugin + Schema SEO"
-theme: jekyll-theme-modernist  # Gọn đẹp, responsive
+theme: jekyll-theme-minimal  # Gọn đẹp, responsive
 show_downloads: true
 google_analytics: false

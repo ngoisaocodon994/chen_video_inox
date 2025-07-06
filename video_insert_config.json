@@ -1,0 +1,122 @@
+{
+  "video_insert_config": {
+    "system_version": "Inox Manh Hung 3.0",
+    "goal": {
+      "increase_time_on_page": true,
+      "decrease_bounce_rate": true,
+      "enhance_user_experience": true,
+      "seo_rich_snippet": true,
+      "no_manual_intervention": true
+    },
+    "source": {
+      "type": "url",
+      "url": "https://inoxmanhhung.com/video.json",
+      "file_format": "json",
+      "video_list_field": "videos",
+      "video_fields": {
+        "title": "title",
+        "url": "embed_url",
+        "description": "description_optimized",
+        "view_count": "views",
+        "upload_date": "upload_date",
+        "thumbnail_url": "thumbnail_url",
+        "seo_score": "seo_score",
+        "auto_category": "auto_category",
+        "tags": "tags",
+        "related_keywords": "related_keywords"
+      },
+      "min_video_count": 50
+    },
+    "content_analysis": {
+      "fields_extracted": [
+        "post_title",
+        "keywords",
+        "category",
+        "slug"
+      ],
+      "context_identification": true
+    },
+    "filter": {
+      "match_by_title_similarity": true,
+      "title_compare_field": "post_title",
+      "min_similarity_score": 0.75,
+      "prioritize_by_view_count": true,
+      "prioritize_by_keyword_match": true,
+      "prioritize_by_auto_category": true,
+      "min_seo_score": 60
+    },
+    "rules": {
+      "min_videos_per_post": 3,
+      "max_videos_per_post": 5,
+      "no_duplicate_video_in_post": true,
+      "allow_reuse_across_posts": true,
+      "auto_adjust_by_post_length": true
+    },
+    "positioning_strategy": {
+      "auto_distribute": true,
+      "avoid_consecutive_inserts": true,
+      "avoid_start_and_end_only": true,
+      "logic": "Phân bố đều nội dung, ưu tiên đoạn chứa từ khóa hoặc mô tả sản phẩm, giải pháp, lợi ích.",
+      "preferred_sections": [
+        "H2",
+        "H3",
+        "product_description",
+        "feature_block"
+      ]
+    },
+    "output_format": {
+      "type": "iframe_responsive",
+      "iframe_template": "\u003Cdiv class='responsive-video'\u003E\u003Ciframe src='{video_url}' title='{video_title}' frameborder='0' allowfullscreen\u003E\u003C/iframe\u003E\u003C/div\u003E",
+      "css_required": true,
+      "css_code": ".responsive-video { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .responsive-video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }"
+    },
+    "schema_markup": {
+      "enabled": true,
+      "type": "VideoObject",
+      "fields": {
+        "name": "{video_title}",
+        "description": "{video_description}",
+        "thumbnailUrl": "{thumbnail_url}",
+        "uploadDate": "{upload_date}",
+        "contentUrl": "{video_url}",
+        "embedUrl": "{video_url}",
+        "interactionStatistic": {
+          "@type": "InteractionCounter",
+          "interactionType": {
+            "@type": "WatchAction"
+          },
+          "userInteractionCount": "{view_count}"
+        }
+      }
+    },
+    "automation_steps": [
+      "Phân tích nội dung bài viết",
+      "Lọc và chọn video phù hợp theo category, từ khóa và điểm SEO",
+      "Phân bổ vị trí và chèn HTML iframe vào nội dung",
+      "Sinh Schema VideoObject cho rich snippet",
+      "Tối ưu hiển thị responsive + tốc độ tải trang"
+    ],
+    "advanced_options": {
+      "manual_override": true,
+      "youtube_api_sync": false,
+      "preload_thumbnails": true,
+      "wordpress_admin_preview": true
+    },
+    "expected_results": {
+      "increase_time_on_page_percent": "30-70%",
+      "decrease_bounce_rate": true,
+      "increase_google_ctr": true,
+      "rich_snippet_enabled": true,
+      "smooth_reading_experience": true
+    },
+    "contact": {
+      "hotline": [
+        "0903 162 066",
+        "0908 414 555"
+      ],
+      "website": "https://inoxmanhhung.vn",
+      "email": "sales@inoxmanhhung.com"
+    },
+    "execution_note": "Hệ thống xử lý hoàn toàn tự động từ phân tích nội dung đến chèn video và schema. Không cần thao tác thủ công từ người dùng."
+  }
+}
